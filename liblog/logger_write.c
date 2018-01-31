@@ -411,7 +411,7 @@ LIBLOG_ABI_PUBLIC int __android_log_buf_write(int bufID, int prio,
        !strcmp(tag, "MtkAudioLoud") ||
        !strcmp(tag, "LoopbackManager") ||
        !strcmp(tag, "AudioInterConnection")) {
-	 return 0;
+	  return 0;
     }
 
     /* XXX: This needs to go! */
